@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+#w1 {
+    width: 100%;
+    float: left;
+}
+
+#w1 ul {
+    list-style-type: none;
+}
+
+#w1 li {
+    float: left;
+    margin-left: .5%;
+    border: 1px solid;
+    border-color: gray;
+    padding: 7px;
+    color: gray;
+    border-radius: 18px;
+}
+
+.w2 {
+    /*    background-color: aqua;*/
+    width: 56%;
+    float: left;
+    border-bottom: 1px solid;
+}
+
+.w3 {
+    margin-top: 2px;
+    /*    background-color: bisque;*/
+    float: left;
+    width: 54%;
+}
+
+#q1 {
+    width: 100%;
+    float: left;
+    /* background-color: aquamarine; */
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+#q1 ul {
+    list-style-type: none;
+    width: 100%;
+    /* background-color: indianred; */
+    height: 100%;
+    float: left;
+}
+
+#q1 li {
+    float: left;
+    /* width: 20%; */
+    height: 100%;
+    /* background-color: hotpink; */
+    margin-right: 1%;
+}
+
+#head {
+    width: 6%;
+}
+
+#head h1 {
+    font-size: 20px;
+}
+
+#search {
+    width: 75%;
+}
+
+#search input {
+    text-align: center;
+    font-size: 18px;
+    height: 80%;
+    width: 100%;
+}
+
+#about {
+    width: 13%;
+}
+
+#about p {
+    text-align: center;
+    font-size: 12px;
+}
+
+#q2 {
+    float: left;
+    width: 100%;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#q2 ul {
+    list-style-type: none;
+}
+
+#q2 li {
+    float: left;
+    margin-left: 20%;
+    margin-bottom: 12px;
+}
+
+#q2 a {
+    color: rgb(100, 100, 100);
+}
+
+#q2 li:hover {
+    color: black;
+    border-bottom: 2px solid;
+    border-width: thick;
+}
+
+#q3 {
+    float: left;
+    /*    background-color: mediumpurple;*/
+    width: 50%;
+    margin-top: 2px;
+}
+
+#q4 {
+    /*    background-color: mediumpurple;*/
+    float: left;
+    width: 96%;
+    height: 250px;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+
+#q4 img {
+    border-radius: 5px;
+    /*    opacity: 0.7;*/
+    margin-right: 10px;
+    width: 38%;
+    height: 95%;
+    float: left;
+}
+
+#q4 h2 {
+    font-size: 18px;
+    color: black;
+}
+
+#q4 a {
+    color: black;
+}
+
+#map {
+    width: 50%;
+    background-color: darkgoldenrod;
+    height: 100%;
+    float: left;
+}
+
+#map img {
+    width: 100%;
+}
